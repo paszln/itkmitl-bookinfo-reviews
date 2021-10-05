@@ -11,3 +11,9 @@ docker run -d --name reviews -p 8082:9080 --link ratings:ratings -e ENABLE_RATIN
 ```
 
 * Test with path `/reviews/1` and `/health`
+
+## How to run with Docker Compose
+
+```bash
+docker-compose up
+```
